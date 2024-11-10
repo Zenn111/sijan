@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>
+            Flexbox Exercise
+        </title>    
+        
+        <style>
+            p {
+                flex:1;
+                color:white;
+                
+            
+            }
+
+            input {
+                width:900px;
+                padding-left:40px;
+                padding-right:40px;
+            }
+
+            p, button, input {
+                font-family: Arial;
+                font-weight:bold;           
+            }
+
+            .header-contains {
+                display: flex;
+                flex-direction: row;
+                background-color: rgb(185, 110, 185);
+                height: 60px;
+                justify-content: space-between;
+
+            }
+
+            .left-part {
+                margin-top:5px;
+                margin-right: 200px;
+                margin-left:20px;
+                
+            }
+
+            .middle-part {
+                margin-top:11px;
+                padding-right: 20px;
+
+            }
+
+            .right-part {
+                width: 10px;
+                background-color:lightpink;
+                
+            }
+
+            .button {
+                margin-top:12px;
+                margin-right:20px;
+                background-color: rgb(185, 110, 185);
+                border-style:solid;
+                border-color:white;
+                color:white;
+                padding-left:20px;
+                padding-right:20px;
+                padding-top:10px;
+                padding-bottom:10px;
+                font-weight: bold;
+                font-size:14px;
+
+            }
+
+            input {
+              height:40px;   
+              border-radius: 30px; 
+              border-style: solid;  
+              border-color: rgb(185, 110, 185);
+              
+            }
+
+        </style>
+    </head>
+
+    <body>
+        <div class="header-contains">        
+            <div class="left-part">
+                <p>
+                    Home
+                </p>
+            </div>
+            <div class="middle-part">
+                <input type="search">
+            </div>
+            <div class="right=part">
+                <button class="button">
+                    Download
+                </button>
+            </div>
+        </div>
+    </body>
+
+</html>

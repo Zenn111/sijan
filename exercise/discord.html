@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Discord Exercise
+        </title>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Pontano+Sans:wght@300..700&display=swap" rel="stylesheet">
+                    
+        <style>
+
+            p{
+                font-family:Pontano Sans;
+                color:white;
+                font-weight: bold;
+            }
+
+
+
+            body {
+                padding-left:380px;   
+                height:3000px;            
+            }
+
+            .main-container {
+                display:flex;
+                flex-direction: row;
+                align-items: center;
+            }
+
+            .left-section {    
+                background-color: rgb(40, 38, 38);
+                position:fixed; 
+                bottom:0px;
+                top:0px;
+                left:0px;
+                width:90px;
+
+            }
+
+            .img-container {
+                display:flex;
+                flex-direction: column;
+                cursor: pointer;
+                
+            }
+
+            .pic1 {
+                width:70px;
+                margin-bottom:15px;
+                margin-top:15px;
+                margin-left:10px;
+                border-radius:90px;
+                
+                object-fit: cover;
+                
+            }
+
+            .pic1:hover{
+                opacity:0.5;
+            }
+
+            .pic2 {
+                width:70px;
+                margin-bottom:15px;
+                margin-left:10px;
+                border-radius:35px;
+            }
+
+            .pic2:hover{
+                opacity:0.5;
+            }
+
+            .pic3 {
+                width:70px;
+                margin-bottom:15px;
+                margin-left:10px;
+                border-radius:35px;
+            }
+
+            .pic3:hover{
+                opacity:0.5;
+            }
+
+            .middle-section{
+                background-color: rgba(53, 46, 46, 0.872);    
+                padding-left:0px;  
+                position:fixed;   
+                width:300px;
+                left:90px;
+                top:0px;
+                bottom:0px;      
+            }
+
+            .p1{
+                display: flex;
+                flex-direction: row;
+            }
+
+            .p2:hover{
+                cursor:pointer;
+                opacity:0.5;
+            }
+
+            .p3:hover{
+                cursor:pointer;
+                opacity:0.5;
+            }
+
+
+            .text {
+                margin-left:15px;
+            }
+
+            .t1{
+                opacity:0.5;
+            }
+            
+            .t1:hover{
+                cursor:pointer;
+                text-decoration: underline;
+            }
+
+            .t2{
+                opacity:0.5;
+            }
+
+            .t2:hover{
+                cursor:pointer;
+                text-decoration: underline;
+            }
+
+            .t3{
+                opacity:0.5;
+            }
+
+            .t3:hover{
+                cursor:pointer;
+                text-decoration: underline;
+            }
+
+            .right-section{
+                     
+                width:100%;
+            }
+
+        </style>
+    </head>
+    <body>
+        <div class="main-container">
+            <div class="left-section">
+                <div class="img-container">
+                    <img class="pic1" src="/propics/1.webp">
+                    <img class="pic2" src="/propics/2.jpg">
+                    <img class="pic3" src="/propics/images.jpg">
+                </div>
+            </div>
+            <div class="middle-section">
+                <div class="text">
+                    <div class="p1">
+                        <p class="p2" style="margin-right:220px;">
+
+                            INFO 
+                        </p>
+                        <p class="p3">
+                            +
+                        </p>
+                    </div>
+                    
+                    <p class="t1">
+                        # new-videos
+                    </p>
+                    <p class="t2">
+                        # updates
+                    </p>
+                    <p class="t3">
+                        # faq
+                </div>
+            </div>
+            <div class="right-section">
+               
+            </div>
+        </div>
+    </body>
+</html>
